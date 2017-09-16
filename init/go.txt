@@ -1,0 +1,1 @@
+python retrain.py  --bottleneck_dir=./bottleneck --how_many_training_steps=500 --model_dir=./inception_dec_2015  --output_graph=./model/retrained_graph.pb --output_labels=./model/retrained_labels.txt --image_dir=./flower_photos
